@@ -15,3 +15,4 @@ typedef struct
 } line_t;
 
 void Draw (HDC hdc, int itr, line_t base);
+point_t get_point(line_t line);
