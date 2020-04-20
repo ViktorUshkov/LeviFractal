@@ -1,6 +1,5 @@
 #include <windows.h>
 #include "graphics.h"
-#include "calc.h"
 
 void Draw(HDC hdc, int itr, line_t base) {
 	HPEN hPen = CreatePen(PS_SOLID, 2, RGB(0, 0, 0));
